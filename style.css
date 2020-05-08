@@ -1,5 +1,6 @@
 div #ff {
     margin: auto;
+    overflow: auto;
 }
 div #layout {
   text-align: center;
@@ -17,18 +18,22 @@ body{
         bottom:0; 
         left:0; 
         font-family: Helvetica; 
-        overflow: scroll; 
         }
-
+    div #ff {
+        margin: auto;
+        overflow: auto;
+    }
 	text {
-		font-family: Helvetica;
+        font-family: Helvetica;
+        font-size: 8px;
         color: var(--var-color-grey);
-	}
+    }
 	.axis path,
 	.axis line {
 		fill: none;
 		stroke: var(--var-color-grey);
 		shape-rendering: crispEdges;
 	}
-    .x.axis {font-size: 15px;  }
+    .x.axis {font-size: 12px; }
     .y.axis {font-size: 12px; }
+    
