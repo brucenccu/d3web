@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel = "stylesheet" href = "./style.css">
     <title>Browser-Based UI</title>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body>
     <!--<div id ='layout'>
@@ -13,7 +13,14 @@
             <svg width="1000" height="1000"></svg>
         </div>
     </div>-->
-    <div id = "ff" style = "width:1000"></div>
+    <div style = "margin-left:20px;margin-top:20px">
+        <select id ="mySelect">
+            <option value="106">民國106年</option>
+            <option value="107">民國107年</option>
+            <option value="108">民國108年</option>
+        </select>
+    </div>
+    <div id = "ff" style = "width:1000px"></div>
     <!--<div id = "app">
         <div class = "main-area">
             <div id = "message">
@@ -32,6 +39,6 @@
         </div>
     </div>-->
     
-    <script src = "./index.js"></script>
+    <script type="text/javascript" src = "./index.js"></script>
 </body>
 </html>
