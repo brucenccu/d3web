@@ -23,6 +23,10 @@ body{
         margin: auto;
         overflow: auto;
     }
+    div #title{
+        width:800px; 
+        text-align:center; 
+    }
 	text {
         font-family: Helvetica;
         font-size: 8px;
